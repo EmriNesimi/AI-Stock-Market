@@ -1,59 +1,61 @@
 <div align="center">
   <br />
 
-  <h1 align="center">AI Stock Market Predictor</h1>
+  <h1 align="center">AI Stock Market App</h1>
 
   <p align="center">
-    AI-powered stock market analysis and prediction platform with real-time insights, trend tracking, and interactive charts.
+    AI-powered stock market platform with real-time tracking, alerts, company insights, and intelligent financial analysis.
   </p>
 
   <br />
 
   <div>
-    <img src="https://img.shields.io/badge/-Python-black?style=for-the-badge&logo=python&logoColor=white&color=3776AB"/>
-    <img src="https://img.shields.io/badge/-Flask-black?style=for-the-badge&logo=flask&logoColor=white&color=000000"/>
-    <img src="https://img.shields.io/badge/-Machine%20Learning-black?style=for-the-badge&logo=tensorflow&logoColor=white&color=FF6F00"/>
-    <img src="https://img.shields.io/badge/-Pandas-black?style=for-the-badge&logo=pandas&logoColor=white&color=150458"/>
+    <img src="https://img.shields.io/badge/-Next.js-black?style=for-the-badge&logoColor=white&logo=next.js&color=black"/>
+    <img src="https://img.shields.io/badge/-Better Auth-black?style=for-the-badge&logoColor=white&logo=betterauth&color=black"/>
+    <img src="https://img.shields.io/badge/-Shadcn-black?style=for-the-badge&logoColor=white&logo=shadcnui&color=black"/>
+    <img src="https://img.shields.io/badge/-Inngest-black?style=for-the-badge&logoColor=white&logo=inngest&color=black"/>
     <br/>
 
-    <img src="https://img.shields.io/badge/-NumPy-black?style=for-the-badge&logo=numpy&logoColor=white&color=013243"/>
-    <img src="https://img.shields.io/badge/-Scikit%20Learn-black?style=for-the-badge&logo=scikitlearn&logoColor=white&color=F7931E"/>
-    <img src="https://img.shields.io/badge/-Yahoo%20Finance-black?style=for-the-badge&logo=yahoo&logoColor=white&color=6001D2"/>
-    <img src="https://img.shields.io/badge/-GitHub-black?style=for-the-badge&logo=github&logoColor=white&color=181717"/>
+    <img src="https://img.shields.io/badge/-MongoDB-black?style=for-the-badge&logoColor=white&logo=mongodb&color=00A35C"/>
+    <img src="https://img.shields.io/badge/-TailwindCSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=38B2AC"/>
+    <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6"/>
+    <img src="https://img.shields.io/badge/-Finnhub-black?style=for-the-badge&logoColor=white&logo=googleanalytics&color=FF6B00"/>
   </div>
 </div>
 
 ---
 
-# 📈 AI Stock Market Predictor
+# 📈 AI Stock Market App
 
-An AI-powered stock market project that analyzes historical market data, tracks stock performance, and predicts future trends using machine learning models. The application provides interactive charts, stock insights, and intelligent predictions to help users better understand market behavior.
+A modern AI-powered stock market application inspired by real-world financial platforms. This project allows users to track stocks in real time, analyze company performance, create watchlists, and receive AI-driven insights and alerts through a clean and responsive interface.
 
 ---
 
 # ⚙️ Tech Stack
 
-- Python
-- Flask
-- Pandas
-- NumPy
-- Scikit-Learn
-- Yahoo Finance API
-- HTML/CSS
-- Git & GitHub
+- Next.js
+- TypeScript
+- TailwindCSS
+- Shadcn UI
+- Better Auth
+- MongoDB
+- Inngest
+- Finnhub API
+- Nodemailer
 
 ---
 
 # 🔥 Features
 
-👉 Real-time stock market tracking  
-👉 AI-powered stock prediction system  
-👉 Historical stock data analysis  
-👉 Interactive stock charts and visualizations  
-👉 Market trend forecasting  
-👉 Machine learning integration  
-👉 Clean and responsive UI  
-👉 Fast and lightweight application  
+👉 Real-time stock tracking and charts  
+👉 AI-generated stock insights and summaries  
+👉 Personalized watchlists  
+👉 Price alerts and notifications  
+👉 Company financial analysis  
+👉 Interactive dashboard interface  
+👉 Event-driven workflows with Inngest  
+👉 Responsive modern UI design  
+👉 Secure authentication system  
 
 ---
 
@@ -69,42 +71,70 @@ cd AI-Stock-Market
 ## Install Dependencies
 
 ```bash
-pip install -r requirements.txt
+npm install
 ```
 
-## Run the Project
+## Set Up Environment Variables
 
-```bash
-python app.py
-```
+Create a `.env` file in the root directory and add:
 
-Open your browser and go to:
+```env
+NODE_ENV='development'
+NEXT_PUBLIC_BASE_URL=http://localhost:3000
 
-```bash
-http://127.0.0.1:5000
+# FINNHUB
+NEXT_PUBLIC_FINNHUB_API_KEY=
+
+# MONGODB
+MONGODB_URI=
+
+# BETTER AUTH
+BETTER_AUTH_SECRET=
+BETTER_AUTH_URL=http://localhost:3000
+
+# GEMINI
+GEMINI_API_KEY=
+
+# NODEMAILER
+NODEMAILER_EMAIL=
+NODEMAILER_PASSWORD=
 ```
 
 ---
 
-# 📊 Project Goals
+## Run the Project
 
-This project was created to explore how artificial intelligence and machine learning can be applied to financial market analysis. It focuses on predicting stock trends, visualizing data, and building a user-friendly financial analytics platform.
+```bash
+npm run dev
+npx inngest-cli@latest dev
+```
+
+Open:
+
+```bash
+http://localhost:3000
+```
+
+---
+
+# 📊 Project Purpose
+
+This project was built to explore how AI and modern web technologies can be integrated into financial analysis platforms. It focuses on combining real-time market data, intelligent workflows, and clean UI design into one scalable application.
 
 ---
 
 # 🧠 Future Improvements
 
-- Deep learning integration
-- More advanced prediction models
-- Cryptocurrency support
-- Portfolio tracking
-- User authentication system
-- Live market alerts
+- Advanced AI prediction models  
+- Cryptocurrency market support  
+- Portfolio analytics  
+- Mobile optimization  
+- More detailed financial reports  
+- Social/community features  
 
 ---
 
 # 👨‍💻 Author
 
 Developed by Emri Nesimi
-
 ```
